@@ -1,0 +1,32 @@
+body {
+    background-image: url("heeks.jpg");
+   
+}
+
+nav {
+    color: red;
+}
+
+.navbar-brand {
+    font-family: OCR A Std, monospace;
+    color: red;
+
+}
+
+.nav-link {
+    font-family: OCR A Std, monospace;
+    color: red;
+}
+
+
+.card {
+    margin: 20px;
+}
+
+#postings {
+    text-align: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-top:10%;
+
+}

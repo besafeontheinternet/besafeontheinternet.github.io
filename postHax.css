@@ -1,0 +1,62 @@
+/*body{*/
+
+/*    background-image:url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/ExspEUkoliksz67w8/green-matrix-background_r1gl8-f__F0000.png');*/
+
+/*}*/
+
+.navbar-brand {
+    font-family: OCR A Std, monospace;
+
+}
+
+.nav-link {
+    font-family: OCR A Std, monospace;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light {
+    background-color: red;
+}
+
+.jumbotron {
+    background-image: URL('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/ExspEUkoliksz67w8/green-matrix-background_r1gl8-f__F0000.png');
+    color: white;
+    height: 100%;
+    margin: 0;
+    background-repeat: repeat;
+}
+
+#jumbotron{
+    min-height:100%;
+}
+
+#submit {
+    font-family: OCR A Std, monospace;
+}
+
+.display-4 {
+    font-family: OCR A Std, monospace;
+}
+
+#postingtitle {
+    font-family: OCR A Std, monospace;
+}
+
+#postingdesc {
+    font-family: OCR A Std, monospace;
+}
+
+
+.navbar {
+    color: green;
+}
+
+.navbar navbar-expand-lg navbar-dark bg-dark{
+    position: fixed;
+}
+
+#submitted{
+    background-image:URL('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/ExspEUkoliksz67w8/green-matrix-background_r1gl8-f__F0000.png');
+min-height: 1000px;
+color:white;
+font-size:80px;
+}

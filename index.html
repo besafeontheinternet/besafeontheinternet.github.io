@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <title>ViewHax</title>
+
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBp_cGd_KQvtV5AabikCWiaY0FDC4FO1X0",
+            authDomain: "hackit-d150e.firebaseapp.com",
+            databaseURL: "https://hackit-d150e.firebaseio.com",
+            projectId: "hackit-d150e",
+            storageBucket: "",
+            messagingSenderId: "6899469257"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id='navbarscroll'>
+        <a class="navbar-brand" href="landing.html">HackIt</a>
+        <nav class="navbar navbar-dark bg-dark">
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search Consoles</button>
+  </form>
+</nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><img src='https://cdn4.iconfinder.com/data/icons/danger-soft/512/people_user_business_web_man_person_social-512.png' style='width:50%; height:50%'></span>
+  </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="postHax.html">Post Hax <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">View Hax</a>
+                    
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+ <!-- TODO:postings should appear in the div below -->
+    <div id="postings">
+    </div>
+    <!-- TODO:postings should appear in the div above -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+   
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+
+
+</html>
